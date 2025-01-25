@@ -1,38 +1,38 @@
-# CRUD-MVC-PHP
-Crud em MVC e PHP
+CRUD-MVC-PHP
+Crud en MVC y PHP
 ### Objetivo: 
 
->Desenvolver um sistema CRUD simples em PHP 5 ou 7 (sem frameworks) e MySQL para a administração de livros de uma loja.
+>Desarrolla un sistema CRUD simple en PHP 5 o 7 (sin frameworks) y MySQL para la administración de libros de una tienda.
 
-### Detalhes:
+### Detalles:
 
->Os livros devem contar com as seguintes informações:
+>Books debe tener la siguiente información:
 
-1. Nome
+1. Nombre
 2. Autor
-3. Quantidade de Páginas
-4. Preço (em reais, contando centavos)
-5. Flag para livro ativo/inativo (não afetando na listagem, somente um valor para referência)
-6. Data de inclusão/edição
+3. Número de Páginas
+4. Precio (en real, contando centavos)
+5. Bandera para libro activo/inactivo (que no afecta a la lista, solo un valor de referencia)
+6. Fecha de inclusión/edición
 
-### Regras: 
+### Reglas: 
 
->As regras abaixo devem ser seguidas ao cadastrar/editar um livro:
+>Las siguientes reglas deben seguirse al registrar/editar un libro:
 
-1. Não devem haver livros com o mesmo nome
-2. A quantidade de páginas e o preço, não podem ser zerados nem negativos
-3. O livro deve ter o valor inicial de inativo, podendo ser alterado posteriormente diretamente por meio da listagem (link ou Ajax) ou edição completa do livro
-4. Na listagem o preço deve ser formatado no padrão brasileiro (R$ 1.050,10).
+1. No debería haber libros con el mismo nombre
+2. El número de páginas y el precio no pueden ser cero o negativo
+3. El libro debe tener el valor inicial de inactivo, y puede ser cambiado más tarde directamente a través de la lista (enlace o Ajax) o edición completa del libro
+4. En el listado, el precio debe estar formateado en el estándar brasileño (R$ 1,050.10).
 
 
-### Detalhes sobre o programa:
+### Detalles sobre el programa:
 
-1.  init.php são os arquivos de configurações do sistema de livraria
-2.  diretório "view" é onde fica todas as telas do sistema
-3.  diretório "controller" é onde fica fica as funcionalidades do sistema que interragem com o banco de dados
-4.  diretório "model" é onde fica os arquivos de conexão com o banco de dados
+1. init.php son los archivos de configuración del sistema de biblioteca
+2. El directorio "view" es donde se encuentran todas las pantallas del sistema
+3. El directorio "controller" es donde están las características del sistema que interactúan con la base de datos
+4. El directorio "modelo" es donde se encuentran los archivos de conexión de la base de datos
 
-No diretório "view" existem 3 páginas principais: editar.php, cadastro.php e index.php. a página head e menu são os escopos do HTML e Menu do sistemas respectivamente.
+En el directorio "view" hay 3 páginas principales: edit.php, catastro.php e index.php. la página principal y el menú son los ámbitos de los sistemas HTML y Menu respectivamente.
 
 No diretório "controller" estão os arquivos PHP que executam as funcionalidades do sistema.
 
